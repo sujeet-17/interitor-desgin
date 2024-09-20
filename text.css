@@ -1,0 +1,402 @@
+@font-face
+{
+    src:url('./fonts/Sans.ttf');
+    font-family:sans;
+}
+@font-face
+{
+    src:url('./fonts/GoldanaBase.ttf');
+    font-family: golden;
+}
+body,html
+{
+    scroll-behavior: smooth;
+
+}
+.carousel-control-prev
+{
+    background-color: transparent;
+    height: 1000px;
+    border: none;
+    margin-top: -200px;
+}
+.carousel-control-next
+{
+    background-color: transparent;
+    height: 1000px;
+    border: none; 
+    margin-top: -200px;
+}
+form
+{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    /* flex-direction: column; */
+}
+#login
+{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    
+}
+.font1
+{
+  font-family:golden;
+  /* font-variant: small-caps; */
+  font-size: 3rem;
+  color: rgb(96, 96, 96);
+}
+.font2
+{
+   font-variant: small-caps;
+   font-weight: 400;
+   font-size: 1.1rem;
+}
+.font3
+{
+   font-size: .9rem;
+   color: rgb(103, 103, 103) ;
+}
+.rectangle
+{
+    height: 150px;
+    width: 80%;
+    /* background-color: aquamarine; */
+    margin: auto;
+    margin-top: 50px;
+}
+.col-lg-12
+{
+    margin: auto;
+    width: 80%;
+    height: 700px;
+    /* border: 2px black solid; */
+}
+.imgs
+{
+    margin: auto;
+    width: 100%;
+    height: 700px;
+}
+
+.box
+{
+    height: 300px;
+    width: 70%;
+    /* background-color: aqua; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    margin: auto;
+
+}
+.box1
+{
+    font-size: 3rem;
+    font-variant: small-caps;
+    text-align:center;
+}
+.box2
+{
+    font-size: .9rem;
+    /* font-variant: small-caps; */
+    text-align:center;
+    margin-top: 10px;
+}
+.box3
+{
+    font-size: .9rem;
+    /* font-variant: small-caps; */
+    text-align:center;
+    margin-top: 20px;
+}
+.box4
+{
+    font-size: .9rem;
+    /* font-variant: small-caps; */
+    text-align:center;
+    margin-top: 30px;
+}
+.boxes
+{
+    height: 50%;
+    width: 65%;
+    /* background-color: red; */
+    margin: auto;
+}
+.founder
+{
+    font-size:3rem;
+    /* font-family:sans; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    font-variant: small-caps;
+}
+.founder1
+{
+    font-size:1.5rem;
+    /* font-family:sans; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+/* .button1
+{
+    margin-top: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+} */
+hr
+{
+    color: black;
+    width: 80%;
+    height: 10px;
+}
+.contact
+{
+    width: 100%;
+    height: 600px;
+    /* background-color: aquamarine; */
+}
+.contact1
+{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.square1
+{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(244, 244, 244);
+    margin: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.square2
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(244, 244, 244);
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.square4
+{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(244, 244, 244);
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact2
+{
+    height: 580px;
+    width: 60%;
+    background-color: rgb(249, 191, 0);
+    margin: auto;
+    margin-top: -80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.conname
+{
+   font-size: 2.8rem;
+   font-variant: small-caps;
+   margin-top: 10px;
+}
+input[type="text1"]
+{
+    height: 150px;
+    /* width: 500px; */
+}
+.branch
+{
+    text-align: center;
+}
+footer
+{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(244, 244, 244);
+    /* background-color: red; */
+    margin-top: 250px;
+}
+.LIVESPACE
+{
+    font-size: 2.5rem;
+    text-align:center;
+
+}
+.row1
+{
+    display: flex;
+
+}
+.contacts
+{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+/* .footer
+{
+    margin-left: 580px;
+} */
+
+@media all and (max-width: 564px)
+ { 
+    .row1
+    {
+       display: grid;
+       grid-template-columns: 1fr;
+       margin-left: 200px;
+    }
+    .row2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .boss
+    {
+        position:relative;
+        left:80px;
+    }
+    .imgs
+    {
+        position: relative;
+        left: 60px;
+    }
+    .founder
+    {
+        position: relative;
+        left:30px;
+    }
+    .founder1
+    {
+        position: relative;
+        left:30px;
+    }
+    .meet
+    {
+        margin-left: 200px;
+    }
+    .contacts
+    {
+        /* background-color: red; */
+        position: relative;
+        left: 100px; 
+        top:0px;
+    }
+   
+    .logos
+    {
+        /* background-color: blue; */
+        position: relative;
+        left: 150px; 
+    }
+    .socials
+    {
+        /* background-color: green; */
+        position: relative;
+        left: 300px;
+        top:15px; 
+    }
+    .infos
+    {
+        position: relative;
+        left: 300px;
+    }
+    .foter
+    {
+        /* background-color: aqua; */
+    }
+    .row3
+    {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  @media all and (max-width:1194px)
+   {
+      .row
+      {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+      }
+      .row1
+      {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .col
+      {
+        width: 90%;
+      }
+      .btn-outline-success
+      {
+        margin-top: 50px;
+      }
+      .imgs
+      {
+        width: 800px;
+        margin: auto;
+        margin-left: -80px;
+      }
+      hr
+      {
+        margin-top: 120px;
+        /* background-color: red;
+        height: 50px; */
+      }
+      .boss
+      {
+        margin-top: 0px;
+        margin-left: -65px;
+        width: 800px;
+      }
+      .founder
+      {
+        font-size: 5rem;
+        text-align: center;
+        margin-top: -20px;
+        margin-left: 40px;
+      }
+      .founder1
+      {
+        font-size: 2rem;
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+      }
+     .meet
+     {
+        margin-left: 50px;
+     }
+     .foter
+     {
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+     }
+    
+  }
